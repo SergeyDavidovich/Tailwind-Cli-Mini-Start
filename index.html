@@ -7,9 +7,22 @@
   <link href="./public/output.css" rel="stylesheet">
 </head>
 <body class="bg-slate-900">
-  <h1 class="my-10 text-6xl text-center text-green-300 sm:text-4xl md:text-4xl">
-    Hello world!
-  </h1>
+  <blockquote class="p-10 m-10 text-2xl text-left c sm:text-6xl md:text-8xl">
+   <span class="text-white"> Hello</span>
+
+   <span class="relative inline-block before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-red-500">
+    <span class="relative text-white">world!</span>,
+  </span>
+  </blockquote>
+<!--
+  <blockquote class="text-2xl italic font-semibold text-center text-slate-900">
+    Когда вы все время выглядите
+    <span class="relative inline-block before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-500">
+      <span class="relative text-white">раздраженным</span>,
+    </span>
+    люди думают, что вы заняты.
+  </blockquote>
+-->
   <p class="m-6 text-xl text-white">npx tailwindcss -i ./src/input.css -o ./public/output.css --watch</p>
 
   <a href="https://stackoverflow.com/questions/72680086/no-utility-classes-were-detected-in-your-source-files-double-check-the-content" class="m-6 text-white underline">Link to question on Stack overflow</a>
